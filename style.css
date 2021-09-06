@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+:root {
+    /* ### Colors */
+
+    /* ### Primary */
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    /* ### Neutral */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+* {
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pale-blue);
+    min-height: 500px;
+    min-width: 255px;
+    overflow: auto;
+}
+
+.bg {
+    background-color: #fff;
+    height: 78.5vh; width: 48vh;
+    min-width: 255px;
+    min-height: 345px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 20px 30px -30px hsla(223, 47%, 23%, 0.705);
+}
+.hero {
+    width: 100%;
+}
+.txt {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.plan {
+    width: 82%; height: 12vh;
+    min-height: 52px;
+    background-color: var(--very-pale-blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#title {
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: var(--dark-blue);
+    margin: 5px 5px -5px 5px;
+}
+#desc {
+    color: var(--desaturated-blue);
+    margin: 0 5%;
+}
+#info {
+    padding-right: 3vh;
+}
+#plan-name {
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+#plan-price {
+    color: var(--desaturated-blue);
+}
+#change-lnk {
+    font-weight: 500;
+    color: hsl(245, 75%, 52%);
+}
+#change-lnk:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.733);
+}
+#pay-btn {
+    border: none;
+    color: #fff;
+    background-color: var(--bright-blue);
+    border-radius: 8px;
+    width: 82%; height: 6vh;
+    min-height: 25px;
+    font-weight: 500;
+    box-shadow: 0 20px 20px -10px hsl(245, 75%, 52%, 0.4);
+}
+#pay-btn:hover {
+    cursor: pointer;
+    background-color: hsla(245, 75%, 52%, 0.658);
+}
+#cancel-btn {
+    border: none;
+    background-color: transparent;
+    color: var(--desaturated-blue);
+    font-weight: 500;
+}
+#cancel-btn:hover {
+    color: var(--dark-blue);
+    cursor: pointer;
+}

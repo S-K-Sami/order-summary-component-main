@@ -8,11 +8,14 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution {
+      display: none;
       font-size: 11px;
       text-align: center;
     }
@@ -25,22 +28,48 @@
 
 <body>
 
-  Order Summary
+  <div class="bg">
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any
-  device anywhere you like!
+    <img class="hero" src="./images/illustration-hero.svg" alt="thumbnail">
 
-  Annual Plan
-  $59.99/year
+    <div class="txt">
 
-  Change
+      <h3 id="title">Order Summary</h3>
 
-  Proceed to Payment
-  Cancel Order
+      <div id="desc">You can now listen to millions of songs audiobooks, and podcasts on any device anywhere you like!</div>
+
+      
+      <div class="plan">
+        
+        <img src="./images/icon-music.svg" alt="plan-icon">
+        
+        <span id="info">
+          
+          <div id="plan-name">Annual Plan</div>
+          
+          <div id="plan-price">$59.99/year</div>
+          
+        </span>
+
+        <div>
+          
+          <a id="change-lnk" href="#">Change</a>
+          
+        </div>
+        
+      </div>
+
+      <button id="pay-btn">Proceed to Payment</button>
+      
+      <button id="cancel-btn">Cancel Order</button>
+      
+    </div>
+
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://s-k-sami.github.io/">Shahrab Khan Sami</a>.
   </div>
 </body>
 
