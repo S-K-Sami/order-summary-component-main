@@ -60,13 +60,18 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-I Learned to make media queries:
+- I learned to make media queries:
 ```css
-@media (max-width: 375px) {
-    body {
-        background-image: url("./images/pattern-background-mobile.svg");
-    }
-}
+  @media (max-width: 375px) {
+      body {
+          background-image: url("./images/pattern-background-mobile.svg");
+      }
+  }
+```
+
+- I learned to place box-shadow just on the bottom side from [Stack Overflow](https://stackoverflow.com/a/6245879/12707096)
+```css
+  box-shadow: 0 20px 30px -30px hsla(223, 47%, 23%, 0.705);
 ```
 <!-- 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
