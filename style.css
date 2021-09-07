@@ -70,6 +70,9 @@ body {
 .btn-sec {
     width: 82%;
 }
+.hide {
+    display: none;
+}
 
 #title {
     font-size: 1.4rem;

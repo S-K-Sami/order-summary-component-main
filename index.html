@@ -15,7 +15,6 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution {
-      display: none;
       font-size: 11px;
       text-align: center;
     }
@@ -40,10 +39,18 @@
         <h1 id="title">Order Summary</h1>
       </header>
 
-      <section id="desc">You can now listen to millions of songs audiobooks, and podcasts on any device anywhere you like!</section>
+      <section id="desc">
+
+        <h3 class="hide">Information</h3>
+        
+        <div>You can now listen to millions of songs audiobooks, and podcasts on any device anywhere you like!</div>
+      
+      </section>
 
       
       <section class="plan">
+
+        <h3 class="hide">Current Plan</h3>
         
         <img src="./images/icon-music.svg" alt="plan-icon">
         
@@ -65,11 +72,15 @@
 
       <section class="btn-sec">
 
+        <h3 class="hide">Payment Button</h3>
+
         <button id="pay-btn">Proceed to Payment</button>
   
       </section>
 
       <section class="btn-sec">
+
+        <h3 class="hide">Cancel Plan</h3>
 
         <button id="cancel-btn">Cancel Order</button>
 
@@ -79,7 +90,7 @@
 
   </main>
 
-  <footer class="attribution">
+  <footer class="attribution hide">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://s-k-sami.github.io/">Shahrab Khan Sami</a>.
   </footer>
