@@ -60,7 +60,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-I Learned to make media queries:
+I learned to make media queries:
 ```css
 @media (max-width: 375px) {
     body {
