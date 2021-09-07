@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/S-K-Sami/order-summary-component-main)
-- Live Site URL: [Add live site URL here](https://s-k-sami.github.io/order-summary-component-main/)
+- Solution URL: [GitHub Repo](https://github.com/S-K-Sami/order-summary-component-main)
+- Live Site URL: [GitHub Live Site](https://s-k-sami.github.io/order-summary-component-main/)
 
 ## My process
 
@@ -99,10 +99,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Background Position](https://www.w3schools.com/cssref/pr_background-position.asp) - My background SVG was being positioned far below where i wanted. This resource helped me position it correctly.
+<!-- - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.** -->
 
 ## Author
 
